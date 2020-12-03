@@ -62,7 +62,7 @@ const educationInfo = {
       schoolName: "Arduino Workshop",
       logo: require("./assets/images/2.png"),
       subHeader: "Optional workshop to learn how to use the Arduino and sensors provided in the kit",
-      duration: "12th December 2020",
+      duration: "12th December 2020, 10 AM - 1 PM",
       desc: " ⠀ ",
       descBullets: [
         "Face-to-face workshop",
@@ -135,10 +135,10 @@ const workExperiences = {
       companylogo: require("./assets/images/student.png"),
       date: "Up to Secondary 4 students",
       desc: " ⠀ ",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      //descBullets: [
+        //"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        //"Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      //]
     },
     {
       role: "Senior",
@@ -146,10 +146,10 @@ const workExperiences = {
       companylogo: require("./assets/images/graduate.png"),
       date: "Junior College students and adults",
       desc: " ⠀ ",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      //descBullets: [
+        //"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        //"Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      //]
     },
   ]
 };
@@ -191,28 +191,28 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Innovation / Creativity",
-      subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      subtitle: "What sets your product apart from other similar solutions?",
       image: require("./assets/images/innovation.png"), // Icons made by <a href="https://www.flaticon.com/authors/geotatah" title="geotatah">geotatah</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
       footerLink: [
       ]
     },
     {
       title: "Product Maturity",
-      subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      subtitle: "How viable is your idea to be implemented?",
       image: require("./assets/images/maturity.png"), // Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
       footerLink: [
       ]
     },
     {
       title: "Implementation Complexity",
-      subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      subtitle: "How many of the available sensors and programs have you utilised in your idea?",
       image: require("./assets/images/complexity.png"), // Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
       footerLink: [
       ]
     },
     {
       title: "Final pitch",
-      subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       image: require("./assets/images/pitch.png"), // Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
       footerLink: [
       ]
@@ -273,8 +273,8 @@ const contactInfo = {
   subtitle2: "If you are not able to find a team, do sign up individually and we will help you to form a team!",
   subtitle3: "$25 per team (at least 1 SMA member)",
   subtitle4: "$35 per team (no SMA members)",
-  subtitle5: "Register at ...",
-  number: "",
+  subtitle5: "Register at:",
+  number: "http://bit.ly/smakathon",
   email_address: "SMAtechforum@malayalee.org.sg"
 };
 
