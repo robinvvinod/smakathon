@@ -135,10 +135,12 @@ const workExperiences = {
       companylogo: require("./assets/images/student.png"),
       date: "Up to Secondary 4 students",
       desc: " ⠀ ",
-      //descBullets: [
-        //"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        //"Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      //]
+      descBullets: [
+        "First prize: $200",
+        "Second prize: $150",
+        "Most popular vote: $75 (1 winner from both categories)",
+        "Special mention: $75 (1 winner from both categories)"
+      ]
     },
     {
       role: "Senior",
@@ -146,10 +148,12 @@ const workExperiences = {
       companylogo: require("./assets/images/graduate.png"),
       date: "Junior College students and adults",
       desc: " ⠀ ",
-      //descBullets: [
-        //"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        //"Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      //]
+      descBullets: [
+        "First prize: $300",
+        "Second prize: $200",
+        "Most popular vote: $75 (1 winner from both categories)",
+        "Special mention: $75 (1 winner from both categories)"
+      ]
     },
   ]
 };
@@ -271,8 +275,8 @@ const contactInfo = {
   title: emoji("Register ☎️"),
   subtitle1: "Form a Team with your friends or family (Maximum 3 participants within a team).",
   subtitle2: "If you are not able to find a team, do sign up individually and we will help you to form a team!",
-  subtitle3: "$25 per team (at least 1 SMA member)",
-  subtitle4: "$35 per team (no SMA members)",
+  subtitle3: "$10 per team",
+  subtitle4: "",
   subtitle5: "Register at:",
   number: "http://bit.ly/smakathon",
   email_address: "SMAtechforum@malayalee.org.sg"
