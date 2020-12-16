@@ -106,7 +106,7 @@ const educationInfo = {
       schoolName: "Finals",
       logo: require("./assets/images/6.png"),
       subHeader: "",
-      duration: "20th December 2020",
+      duration: "20th December 2020, 4 PM - 6.30 PM",
       desc: " ⠀ ",
       descBullets: [
         "8 teams will progress to the finals.",
